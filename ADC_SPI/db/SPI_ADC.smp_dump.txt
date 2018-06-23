@@ -1,0 +1,7 @@
+
+State Machine - |SPI_ADC|PS
+Name PS.rd_wr_data PS.wait_rd_wr PS.CONVST PS.idle 
+PS.idle 0 0 0 0 
+PS.CONVST 0 0 1 1 
+PS.wait_rd_wr 0 1 0 1 
+PS.rd_wr_data 1 0 0 1 
